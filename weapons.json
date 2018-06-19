@@ -1,0 +1,200 @@
+{
+    "weapons": [
+        {
+            "name": "L'Airelle",
+            "class": "Mitraillette légère",
+            "type": "cinétique",
+            "effect" : "\"Chevaucher le taureau\": Augmente la vitesse de tir et le recul lorsque la gâchette est enfoncée. Tuer avec cette arme recharge une partie du chargeur.",
+            "image": "imgs/huckleberry.jpg"
+        },
+        {
+            "name": "Business tranquille",
+            "class": "Fusil automatique",
+            "type": "cinétique",
+            "effect": "\"Jour de paie\": Possède un chargeur plus grand. Augmente la précision lors des tirs au jugé.",
+            "image": "imgs/sweet_business.png"
+        },
+        {
+            "name": "Lumière Dure",
+            "class": "Fusil automatique",
+            "type": "néant",
+            "effect": "\"Lumière Volatile\": Les balles tirées pas cette arme n'a pas de perte de dégats par distance, traverse les cibles et rebondient sur les surfaces dures. Les dégats augmentent si les balles ont ricoché.",
+            "image": "imgs/hard_light.png"
+        },
+        {
+            "name": "Régime SUROS",
+            "class": "Fusil automatique",
+            "type": "cinétique",
+            "effect": "\"Héritage SUROS\": Les balles de la partie basse du chargeur produisent plus de dégats et on une chance d'être rendue en tuant",
+            "image": "imgs/suros.jpg"
+        },
+        {
+            "name": "Sans Pitié",
+            "class": "Fusil à fusion",
+            "type": "solaire",
+            "effect": "\"Momentum Conservé\": Les touches non léthales des projectiles de cette arme la chargent plus vite jusqu'à la mort d'une cible",
+            "image": "imgs/merciless.png"
+        },
+        {
+            "name": "Telesto",
+            "class": "Fusil à fusion",
+            "type": "néant",
+            "effect": "\"Sursis non Prévu\": Les projectiles s'attachent et détonne dans une explosion de néant (retardée).",
+            "image": "imgs/telesto.jpg"
+        },
+        {
+            "name": "Lion combattant",
+            "class": "Lance-grenade",
+            "type": "néant",
+            "effect": "\"Gratification Retardée\": Les grenades rebondissent sur les surfaces. Maintenez la gâchette pour tirer en continue et lâchez pour détonner.",
+            "image": "imgs/fighting_lion.png"
+        },
+        {
+            "name": "Le Prospecteur",
+            "class": "Lance-grenade",
+            "type": "éléctrique",
+            "effect": "\"Creusement\": Maintenir la gâchette pour tirer en continue. Relacher pour détonner toutes les grenades d'un coup. Les grenades s'attachent aux surfaces et mettent les cibles en feu.",
+            "image": "imgs/prospector.png"
+        },
+        {
+            "name": "La Colonie",
+            "class": "Lance-grenade",
+            "type": "néant",
+            "effect": "\"Grenades Robot/insectoides\": Les grenades sont de petits insectes qui poursuivent les cibles et explosent à leurs pieds",
+            "image": "imgs/colony.jpg"
+        },
+        {
+            "name": "Pourpre",
+            "class": "Revolver",
+            "type": "cinétique",
+            "effect": "\"Arme Bannie\": Cette arme tire une rafale de trois coups.",
+            "image": "imgs/crimson.jpg"
+        },
+        {
+            "name": "Tir Solaire",
+            "class": "Revolver",
+            "type": "solaire",
+            "effect": "\"Coup de Soleil\": Cette arme tire des balles explosives et marque les cibles touchées.",
+            "image": "imgs/sunshot.png"
+        },
+        {
+            "name": "L'Aile de la Vigilance",
+            "class": "Fusil rafale",
+            "type": "cinétique",
+            "effect": "\"Vérité Singlante\": Tire une rafale de cinq balles. Si un allié proche est tué, le porteur reçoie un bonus de régénération et court plus vite",
+            "image": "imgs/vigilence.png"
+        },
+        {
+            "name": "Lance Gravitationnelle",
+            "class": "Fusil rafale",
+            "type": "néant",
+            "effect": "\"Trou Noir\": Le second tir d'une rafale créer un trou noir, faisant d'immenses dégats",
+            "image": "imgs/graviton.png"
+        },
+        {
+            "name": "La Bobine des Falaises",
+            "class": "Lance roquettes",
+            "type": "éléctrique",
+            "effect": "\"Le Scientifique Fou\": Cette arme lance une volée de roquette.",
+            "image": "imgs/wardcliff.png"
+        },
+        {
+            "name": "Le Lapin de Jade",
+            "class": "Fusil de précision",
+            "type": "cinétique",
+            "effect": "\"Le Destin de tous les Fous\": Enchaînez les coups au corps pour gagner un bonus de dégats sur le prochain tir à la tête et cela redonne les munitions",
+            "image": "imgs/jade_rabbit.png"
+        },
+        {
+            "name": "Le Serment d'Icar",
+            "class": "Fusil de précision",
+            "type": "solaire",
+            "effect": "\"Le Fusil Limace\": Sans viser, cette arme lance des mini grenades, alors qu'en visant les balles sont précises et font des gros dégats",
+            "image": "imgs/skyburner.png"
+        },
+        {
+            "name": "Le Canon Tracteur",
+            "class": "Pompe",
+            "type": "néant",
+            "effect": "\"Force Répulsive\": Emet un forte impulsion qui repousse les énnemis, supprime leurs abilités et les rends vulnérable au néant",
+            "image": "imgs/tractor.png"
+        },
+        {
+            "name": "A.D.R.I.C",
+            "class": "Sniper",
+            "type": "éléctrique",
+            "effect": "\"Assistant Personnel\": Give information on the aimed targets",
+            "image": "imgs/darci.png"
+        },
+        {
+            "name": "Le Casse-cou",
+            "class": "Mitraillette légère",
+            "type": "éléctrique",
+            "effect": "\"Conducteur éléctrique\": Quand le porteur reçoit des dégats éléctriques, cette arme devient plus puissante et résiste aux prochains dégats de même type, tout en conduisant l'éléctricité entre des cibles proches",
+            "image": "imgs/riskrunner.png"
+        },
+        {
+            "name": "Coeur de Pierre",
+            "class": "Fusil traceur",
+            "type": "éléctrique",
+            "effect": "\"Fusion à Froid\": Cette arme tire un rayon froid",
+            "image": "imgs/coldheart.png"
+        },
+        {
+            "name": "Lentille de Prometheus",
+            "class": "Fusil traceur",
+            "type": "solaire",
+            "effect": "\"L'Enfer Prismatique\": Tire un rayon solaire qui génère un champs solaire de destruction à mesure que le porteur tire",
+            "image": "imgs/prometheus_lens.png"
+        },
+        {
+            "name": "Le Boréal",
+            "class": "Sniper",
+            "type": "néant",
+            "effect": "\"Les Fondamentals\": Maintenir recharger change le type de dégat de l'arme suivant un cycle (néant-solaire-éléctrique)",
+            "image": "imgs/borealis.png"
+        },
+        {
+            "name": "Légende d'Acrius",
+            "class": "Pompe",
+            "type": "éléctrique",
+            "effect": "\"Souffle de Choc\": Projette des chocs élétriques de hauts dégats qui transpercent les ennemies",
+            "image": "imgs/legend_of_acrius.png"
+        },
+        {
+            "name": "MIDA, multifonction",
+            "class": "Fusil de précision",
+            "type": "cinétique",
+            "effect": "\"Multifonction\": Donne un bonus de déplacement",
+            "image": "imgs/mida.png"
+        },
+        {
+            "name": "Lance Polaris",
+            "class": "Fusil de précision",
+            "type": "solaire",
+            "effect": "\"Le cinquième parfait\": Retourne les munitions sur des tirs à la tête, Si quatre tirs à la tête sont réussis, la cinquième balle sera extrèment explosive",
+            "image": "imgs/polaris_lance.jpg"
+        },
+        {
+            "name": "Le Roi des Rats",
+            "class": "Revolver",
+            "type": "cinétique",
+            "effect": "\"Paquet de Rats\": Cette arme est d'autant plus puissante qu'il n'y a d'alliers la possèdant (jusqu'à un maximum de 6)",
+            "image": "imgs/rat_king.png"
+        },
+        {
+            "name": "Faux Dormeur",
+            "class": "Fusil linéaire à fusion",
+            "type": "solaire",
+            "effect": "\"La Belle au Bois Dormant\": Le laser tiré par cette arme transperse les ennemies et rebondit sur les surfaces",
+            "image": "imgs/sleeper_simulant.jpg"
+        },
+        {
+            "name": "Le Transperceur de Monde: Zéro",
+            "class": "Epée",
+            "type": "éléctrique",
+            "effect": "\"Tesseract\": Utiliser l'attaque lourde fait traverser les dimensions au porteur, lui permettant de se ruer sur l'ennemie",
+            "image": "imgs/worldline.jpg"
+        }
+    ]
+}
