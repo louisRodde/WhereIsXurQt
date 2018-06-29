@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import FileModel 1.0
+import WeaponModel 1.0
+import "../delegates"
 
 Page {
     id: page
@@ -11,9 +12,10 @@ Page {
     SilicaListView {
         id: listView
         anchors.fill: parent
-        header: PageHeader { title: qsTr("My Weapons")   }
+        header: PageHeader { title: qsTr("Armes Exotiques")   }
 
-        model: WeaponModel { list: filesFromTmp }
+        model: WeaponModel { weaponList: weapons }
+        delegate: DelegateWeapon { }
         VerticalScrollDecorator {}
     }
 }

@@ -19,6 +19,7 @@ class Weapon : public QObject
     QString m_effect;
     QString m_image;
 public:
+    Weapon();
     explicit Weapon(QString name, QString classe, QString type, QString effect, QString image, QObject *parent = nullptr);
     QString name();
     QString classe();

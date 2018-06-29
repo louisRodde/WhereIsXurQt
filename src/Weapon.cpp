@@ -1,5 +1,8 @@
 #include "weapon.h"
 
+Weapon::Weapon() : m_name("Unknown"), m_classe("Unknown"), m_type("Unknown"), m_effect("Unknown"), m_image("Unknown")
+{
+}
 
 Weapon::Weapon(QString name, QString classe, QString type, QString effect, QString image, QObject *parent)
     : QObject(parent), m_name(name), m_classe(classe), m_type(type), m_effect(effect), m_image(image)

@@ -18,8 +18,8 @@ CONFIG += sailfishapp
 
 SOURCES += src/WhereIsXur.cpp \
     src/Weapon.cpp \
-    WeaponList.cpp \
-    weaponmodel.cpp
+    src/WeaponList.cpp \
+    src/weaponmodel.cpp
 
 DISTFILES += qml/WhereIsXur.qml \
     qml/cover/CoverPage.qml \
@@ -29,7 +29,8 @@ DISTFILES += qml/WhereIsXur.qml \
     rpm/WhereIsXur.spec \
     rpm/WhereIsXur.yaml \
     translations/*.ts \
-    WhereIsXur.desktop
+    WhereIsXur.desktop \
+    qml/pages/WeaponPage.qml
 
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
 
@@ -45,8 +46,8 @@ TRANSLATIONS += translations/WhereIsXur-de.ts
 
 HEADERS += \
     src/weapon.h \
-    WeaponList.h \
-    weaponmodel.h
+    src/WeaponList.h \
+    src/weaponmodel.h
 
 RESOURCES += \
     ressources.qrc

@@ -33,9 +33,9 @@ int main(int argc, char *argv[])
     qmlRegisterUncreatableType<Weapon>("WeaponModel", 1, 0, "Weapon", QStringLiteral("Don't define Weapon in QML!!") );
 
 
-    WeaponList weapons();
+    WeaponList weapons(":/weapons.json");
 
-    view->rootContext()->setContextProperty("filesFromTmp", &weapons);
+    view->rootContext()->setContextProperty("weapons", &weapons);
 
     view->setSource(SailfishApp::pathTo("qml/WhereIsXur.qml"));
     view->show();

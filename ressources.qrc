@@ -29,5 +29,6 @@
         <file>imgs/wardcliff.png</file>
         <file>imgs/worldline.jpg</file>
         <file>weapons.json</file>
+        <file>cover.jpg</file>
     </qresource>
 </RCC>

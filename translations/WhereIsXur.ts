@@ -2,16 +2,16 @@
 <!DOCTYPE TS>
 <TS version="2.1">
 <context>
-    <name>CoverPage</name>
+    <name>FirstPage</name>
     <message>
-        <source>My Cover</source>
+        <source>Armes Exotiques</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
-    <name>FirstPage</name>
+    <name>WeaponModel</name>
     <message>
-        <source>My Weapons</source>
+        <source>Unknown</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
